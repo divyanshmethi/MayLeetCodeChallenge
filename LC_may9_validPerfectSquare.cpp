@@ -14,8 +14,8 @@ Follow up: Do not use any built-in library function such as sqrt.*/
 
 bool isPerfectSquare(int n)
 {
-	int numToForm = 1;	//This is the base case for 1
-	int count = 3;		//We add this count every time to numToForm to form the square
+	long numToForm = 1;	//This is the base case for 1
+	long count = 3;		//We add this count every time to numToForm to form the square
 	while(numToForm < n)
 	{
 		numToForm+=count;	//Every time we add count to numToForm it becomes a perfect square
